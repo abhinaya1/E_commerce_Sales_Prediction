@@ -6,7 +6,6 @@ This project focuses on predicting **Units Sold** for e-commerce products using 
 
 The problem is framed as a **supervised regression task**, and multiple models are evaluated using **cross-validated Mean Absolute Error (MAE)** to ensure robust and fair comparison.
 
----
 
 ## Business Problem
 
@@ -22,7 +21,6 @@ E-commerce businesses often struggle with inaccurate demand forecasts, leading t
 * Operations & inventory planners
 * Business analysts
 
----
 
 ## Dataset
 
@@ -43,7 +41,6 @@ The dataset used in this project is publicly available on Kaggle:
 
 The dataset contains approximately 1,000 observations.
 
----
 
 ## Methodology
 
@@ -70,7 +67,6 @@ The project follows a standard data science workflow:
 
    Hyperparameter tuning is performed using **GridSearchCV**.
 
----
 
 ## Evaluation Metrics
 
@@ -84,7 +80,6 @@ The primary evaluation metric is **cross-validated Mean Absolute Error (MAE)**.
 
 RMSE and R² were explored but not emphasized, as MAE was used consistently for model comparison.
 
----
 
 ## Results Summary
 
@@ -94,7 +89,6 @@ RMSE and R² were explored but not emphasized, as MAE was used consistently for 
 
 A detailed summary of model performance can be found in the **Model Metrics** file.
 
----
 
 ## Limitations & Future Work
 

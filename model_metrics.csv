@@ -1,0 +1,4 @@
+model,cv_mae_mean,cv_mae_std,test_mae,Notes
+Baseline (DummyRegressor: mean),,,5.51145,Primary metric: CV MAE
+Linear Regression (GridSearchCV),5.900367462,0.1682173224,5.55328478,Compared using CV MAE
+Random Forest (GridSearchCV),6.12001,0.1809109025,5.516315,Compared using CV MAE

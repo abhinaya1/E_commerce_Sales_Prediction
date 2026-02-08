@@ -4,7 +4,7 @@
 
 This project focuses on predicting **Units Sold** for e-commerce products using historical sales, pricing, discount, customer segment, and marketing spend data. Accurate sales prediction can help businesses improve inventory planning, optimize marketing budgets, and make data-driven pricing decisions.
 
-The problem is framed as a **supervised regression task**, and multiple models are evaluated using **cross-validated Mean Absolute Error (MAE)** to ensure robust and fair comparison.
+The problem is framed as a **supervised regression task**, and multiple models are evaluated using **cross validated Mean Absolute Error (MAE)** to ensure robust and fair comparison.
 
 
 ## Business Problem
@@ -50,14 +50,14 @@ The project follows a standard data science workflow:
 
    * Date parsing and feature extraction (month, day, weekday)
    * Handling missing values
-   * One-hot encoding of categorical variables
+   * One hot encoding of categorical variables
    * Feature scaling where appropriate
 
 2. **Exploratory Data Analysis (EDA)**
 
    * Distribution analysis of sales
    * Relationship between discounts, marketing spend, and units sold
-   * Category-level sales trends
+   * Category level sales trends
 
 3. **Modeling**
 
@@ -70,7 +70,7 @@ The project follows a standard data science workflow:
 
 ## Evaluation Metrics
 
-The primary evaluation metric is **cross-validated Mean Absolute Error (MAE)**.
+The primary evaluation metric is **cross validated Mean Absolute Error (MAE)**.
 
 **Why MAE?**
 
@@ -85,7 +85,7 @@ RMSE and R² were explored but not emphasized, as MAE was used consistently for 
 
 * The baseline model provides a reference level of performance
 * Linear Regression and Random Forest models are evaluated against the baseline
-* Models are compared using mean and standard deviation of cross-validated MAE
+* Models are compared using mean and standard deviation of cross validated MAE
 
 A detailed summary of model performance can be found in the **Model Metrics** file.
 
@@ -99,4 +99,4 @@ A detailed summary of model performance can be found in the **Model Metrics** fi
 
 * Incorporating external or time-series data
 * Exploring Gradient Boosting models
-* Using time-aware validation strategies
+* Using time aware validation strategies
